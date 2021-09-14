@@ -6,8 +6,8 @@ export default {
     getTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
     getNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
     getActionMovies: `/discover/movie/?api_key=${API_KEY}&ith_genres=28`,
-    getHorrerMovies: `/discover/movie/?api_key=${API_KEY}&with_genres=27`,
+    getFamilyMovies: `/discover/movie/?api_key=${API_KEY}&with_genres=10751`,
     getComedyMovies: `/discover/movie/?api_key=${API_KEY}&with_genres=35`,
-    getDocumentaries: `/discover/movie/?api_key=${API_KEY}&with_genres=99`,
-    getRomanceMovies: `/discover/movie/?api_key=${API_KEY}&with_genres=10749`,
+    getAdventureMovies: `/discover/movie/?api_key=${API_KEY}&with_genres=12`,
+    getAnATV: `/discover/tv/?api_key=${API_KEY}&with_genres=10759`,
 }
