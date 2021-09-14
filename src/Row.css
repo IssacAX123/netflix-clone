@@ -1,7 +1,9 @@
 .row {
     margin-left: 20px;
 }
-
+h1{
+    color: #fff;
+}
 .row_posters{
     display: flex;
     flex-direction: row;
